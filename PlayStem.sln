@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayStemAPI", "PlayStemAPI\PlayStemAPI.csproj", "{79F3475F-EEF9-4DBB-97CE-AAC0C4E9F68A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayStemAPI.Services", "PlayStemAPI.Services\PlayStemAPI.Services.csproj", "{ADF8958B-1E7E-4C06-8FC5-70D3139CA7C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayStemAPI.ServicesConfiguration", "PlayStemAPI.ServicesConfiguration\PlayStemAPI.ServicesConfiguration.csproj", "{5C99A377-83FF-4183-85C2-F9A2E843EDA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayStemAPI.Filters", "PlayStemAPI.Filters\PlayStemAPI.Filters.csproj", "{E14DD4BF-DA0E-4185-9670-8735E539FEF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayStemAPI.Models", "PlayStemAPI.Models\PlayStemAPI.Models.csproj", "{B7EF92F4-FDC0-405C-8543-06404B97BA9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayStemAPI.DTO", "PlayStemAPI.DTO\PlayStemAPI.DTO.csproj", "{4344D540-173A-4529-8C9E-2AE7BF29F9FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F3475F-EEF9-4DBB-97CE-AAC0C4E9F68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F3475F-EEF9-4DBB-97CE-AAC0C4E9F68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F3475F-EEF9-4DBB-97CE-AAC0C4E9F68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F3475F-EEF9-4DBB-97CE-AAC0C4E9F68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF8958B-1E7E-4C06-8FC5-70D3139CA7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF8958B-1E7E-4C06-8FC5-70D3139CA7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF8958B-1E7E-4C06-8FC5-70D3139CA7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF8958B-1E7E-4C06-8FC5-70D3139CA7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C99A377-83FF-4183-85C2-F9A2E843EDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C99A377-83FF-4183-85C2-F9A2E843EDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C99A377-83FF-4183-85C2-F9A2E843EDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C99A377-83FF-4183-85C2-F9A2E843EDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E14DD4BF-DA0E-4185-9670-8735E539FEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14DD4BF-DA0E-4185-9670-8735E539FEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14DD4BF-DA0E-4185-9670-8735E539FEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14DD4BF-DA0E-4185-9670-8735E539FEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7EF92F4-FDC0-405C-8543-06404B97BA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EF92F4-FDC0-405C-8543-06404B97BA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EF92F4-FDC0-405C-8543-06404B97BA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EF92F4-FDC0-405C-8543-06404B97BA9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4344D540-173A-4529-8C9E-2AE7BF29F9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4344D540-173A-4529-8C9E-2AE7BF29F9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4344D540-173A-4529-8C9E-2AE7BF29F9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4344D540-173A-4529-8C9E-2AE7BF29F9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22C9A0F1-DCAF-4351-814D-A65ECBC760C1}
+	EndGlobalSection
+EndGlobal
