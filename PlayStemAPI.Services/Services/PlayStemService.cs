@@ -8,14 +8,12 @@ namespace PlayStem
     {
         private readonly IAstronomyService _astronomyService;
         private readonly Cosmos _cosmo;
-        
+
         public PlayStemService(IAstronomyService astronomyService)
         {
-            _astronomyService = astronomyService;            
+            _astronomyService = astronomyService;
         }
 
-        
-        
         public Cosmos GetCosmoAndCelestial()
         {
             return _astronomyService.GetPositions();

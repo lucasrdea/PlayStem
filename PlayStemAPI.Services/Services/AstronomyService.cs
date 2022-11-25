@@ -34,11 +34,10 @@ namespace PlayStem
             {
                 AstroVector av = Astronomy.HelioVector(planet.body, new AstroTime(simulationTime));
 
-                planet.position =
-                    new Vector3(
-                        Convert.ToSingle(av.x),
-                        Convert.ToSingle(av.y),
-                        Convert.ToSingle(av.z)) * _planetDistanceConvertMultiplier;
+                planet.position = new Vector3(
+                                    Convert.ToSingle(av.x),
+                                    Convert.ToSingle(av.y),
+                                    Convert.ToSingle(av.z)) * _planetDistanceConvertMultiplier;
             }
             _daysToAdd++; // faking time passing by
         }
